@@ -1,0 +1,30 @@
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    color:yellow}
+.part {
+    /* background-color: #ddf; */
+    padding: 30px;
+    margin: 10px;  
+    border: 1px solid yellow;
+    transition: 0.15s;
+  }
+.part:hover {
+    transform: scale(1.02);
+  }
+.bodyColor{
+    background-color: #FCE0BE;
+}
+body {overflow-x: hidden; }
+.partNav{
+    padding: 30px;
+    margin: 10px;  
+    transition: 0.15s;
+}
+.partNav:hover {
+    transform: scale(1.02);
+  }
+
+
