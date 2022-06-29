@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body, html, h1{
+                height: 100%;
+                letter-spacing: 5px;
+                font-family:Century Gothic, Lucida Sans, Sans-serif;
+            }
+            h1{
+                font-size: 500%;
+            }
+            .centered{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            .bgimg{
+                background-image: url('Resources/restpic3.jpg');
+                min-height: 100%;
+                min-width: 1024px;
+                width: 100%;
+                height: auto;
+                background-position: center;
+                background-size: cover;
+                position: fixed;
+                background-repeat: no-repeat;
+                top: 0;
+                left: 0;
+            }
+            
+            .topnav{
+                overflow: hidden;
+                position: fixed;
+                top: 0;
+                width: 100%;
+                
+            }
+            .topnav a{
+                float: right;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 150%;
+              
+            }
+            .topnav a:hover{
+                background-color: grey;
+                color: black;
+            }
+            .topnav a.active{
+                background-color: black;
+                color:white;
+            }
+        </style>
+            
+        
+    </head>
+
+    <body>
+        
+
+        <div class="bgimg">
+            <div class="centered">
+                <h1 style="color: white;">CAFE  VSRR</h1> 
+            </div>
+            <p style="position: absolute; bottom: 40px; left: 16px; color: white; font-size: 150%">monday - friday   10am - 9pm|saturday    12pm - 10pm</p>
+        </div>
+
+        <div class="topnav">
+            <a href="contact.html">Contact</a>
+            <a href="menu.html">Menu</a>
+            <a href="#about">About</a>
+            <a class="home" href="#home">Home</a>            
+        </div>
+
+    </body>
+</html>
